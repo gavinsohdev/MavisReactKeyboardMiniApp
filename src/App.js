@@ -8,7 +8,7 @@ const App = () => {
   useEffect(() => {
     const tg = window.Telegram.WebApp;
     tg.ready();
-    setInitData(JSON.stringify(tg));
+    setInitData(JSON.stringify(tg.initDataUnsafe.user));
 
     tg.onEvent("mainButtonClicked", function () {
       const dataToSend = { status: "clicked", timestamp: Date.now() };
