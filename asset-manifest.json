@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MavisReactKeyboardMiniApp/static/css/main.3d0b9000.css",
-    "main.js": "/MavisReactKeyboardMiniApp/static/js/main.47093888.js",
+    "main.css": "/MavisReactKeyboardMiniApp/static/css/main.de4d1920.css",
+    "main.js": "/MavisReactKeyboardMiniApp/static/js/main.e2f931bd.js",
     "static/js/453.83f4167d.chunk.js": "/MavisReactKeyboardMiniApp/static/js/453.83f4167d.chunk.js",
     "index.html": "/MavisReactKeyboardMiniApp/index.html",
-    "main.3d0b9000.css.map": "/MavisReactKeyboardMiniApp/static/css/main.3d0b9000.css.map",
-    "main.47093888.js.map": "/MavisReactKeyboardMiniApp/static/js/main.47093888.js.map",
+    "main.de4d1920.css.map": "/MavisReactKeyboardMiniApp/static/css/main.de4d1920.css.map",
+    "main.e2f931bd.js.map": "/MavisReactKeyboardMiniApp/static/js/main.e2f931bd.js.map",
     "453.83f4167d.chunk.js.map": "/MavisReactKeyboardMiniApp/static/js/453.83f4167d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d0b9000.css",
-    "static/js/main.47093888.js"
+    "static/css/main.de4d1920.css",
+    "static/js/main.e2f931bd.js"
   ]
 }
