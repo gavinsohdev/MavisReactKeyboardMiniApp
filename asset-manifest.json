@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MavisReactKeyboardMiniApp/static/css/main.de4d1920.css",
-    "main.js": "/MavisReactKeyboardMiniApp/static/js/main.e2f931bd.js",
+    "main.css": "/MavisReactKeyboardMiniApp/static/css/main.75fb401a.css",
+    "main.js": "/MavisReactKeyboardMiniApp/static/js/main.2c5f1cb9.js",
     "static/js/453.83f4167d.chunk.js": "/MavisReactKeyboardMiniApp/static/js/453.83f4167d.chunk.js",
     "index.html": "/MavisReactKeyboardMiniApp/index.html",
-    "main.de4d1920.css.map": "/MavisReactKeyboardMiniApp/static/css/main.de4d1920.css.map",
-    "main.e2f931bd.js.map": "/MavisReactKeyboardMiniApp/static/js/main.e2f931bd.js.map",
+    "main.75fb401a.css.map": "/MavisReactKeyboardMiniApp/static/css/main.75fb401a.css.map",
+    "main.2c5f1cb9.js.map": "/MavisReactKeyboardMiniApp/static/js/main.2c5f1cb9.js.map",
     "453.83f4167d.chunk.js.map": "/MavisReactKeyboardMiniApp/static/js/453.83f4167d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de4d1920.css",
-    "static/js/main.e2f931bd.js"
+    "static/css/main.75fb401a.css",
+    "static/js/main.2c5f1cb9.js"
   ]
 }
