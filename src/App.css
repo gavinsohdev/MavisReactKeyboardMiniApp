@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #eee;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Space between cards */
+}
+
+.card {
+  position: relative;
+  width: 100px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prize-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Text behind the scratchable layer */
+  font-size: 16px; /* Increased font size */
+  color: #444;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; /* Canvas in front of the prize text */
+}
+
+.base,
+#scratch {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  cursor: grabbing;
+  border-radius: 2em;
+}
+
+.base {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1.2em 2.5em rgba(16, 2, 96, 0.15);
+}
+
+.base h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #17013b;
+}
+
+.base h4 {
+  font-weight: 400;
+  color: #746e7e;
+}
+
+#scratch {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
